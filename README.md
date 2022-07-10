@@ -14,6 +14,7 @@ st-config - My configuration of st suckless simple terminal
     * `Support for scroll with Alt+j and Alt+k`
     * `Support for scroll with Alt+Up and Alt+Down`
     * `Support for scroll block with Alt+PageUp and Alt+PageDown`
+    * `Set font size with -z parameter`
     * `Patch autocomplete applied`
     * `Includes shortcut installation`
 
@@ -24,13 +25,15 @@ st-config - My configuration of st suckless simple terminal
   * **Arch Linux:**
 
     ```shell
-    $ sudo pacman -S gcc make coreutils freetype2 libxinerama fontconfig libx11 libxrender
+    $ sudo pacman -S gcc make coreutils freetype2 libxinerama fontconfig --noconfirm 
+    $ sudo pacman -S libx11 libxrender libxft --noconfirm
     ```` 
 
   * **Debian/Ubuntu:**
   
     ```shell
-    $ sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev libxrender-dev
+    $ sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libxft-dev -y
+    $ sudo apt install libfreetype6-dev libfontconfig1-dev libxrender-dev -y
     ````
 
 ### Build and install:
