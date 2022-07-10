@@ -1,7 +1,7 @@
 st config - My configuration of st suckless simple terminal
 ===========================================================
 
-# Information:
+### Information:
 
   * This build contains the following configurations:
     * `Font mono by default`
@@ -25,8 +25,6 @@ st config - My configuration of st suckless simple terminal
 
   * **Debian/Ubuntu:**
     * `sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev libxrender-dev`
-
-_Note: Installation of `kitty` is opcional._ 
 
 ### Build and install:
 
