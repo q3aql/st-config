@@ -4,6 +4,7 @@ st-config - My configuration of st suckless simple terminal
 ### Information:
 
   * This build contains the following configurations:
+
     * `Font mono by default`
     * `Font size 13`
     * `Shell bash by default`
@@ -21,10 +22,16 @@ st-config - My configuration of st suckless simple terminal
 ### Dependencies:
   
   * **Arch Linux:**
-    * `sudo pacman -S gcc make coreutils freetype2 libxinerama fontconfig libx11 libxrender` 
+
+    ```shell
+    $ sudo pacman -S gcc make coreutils freetype2 libxinerama fontconfig libx11 libxrender
+    ```` 
 
   * **Debian/Ubuntu:**
-    * `sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev libxrender-dev`
+  
+    ```shell
+    $ sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev libxrender-dev
+    ````
 
 ### Build and install:
 
