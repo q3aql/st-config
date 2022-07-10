@@ -1,4 +1,4 @@
-st config - My configuration of st suckless simple terminal
+st-config - My configuration of st suckless simple terminal
 ===========================================================
 
 ### Information:
