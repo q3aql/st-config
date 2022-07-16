@@ -26,15 +26,15 @@ st-config - My configuration of st suckless simple terminal
   * **Arch Linux:**
 
     ```shell
-    $ sudo pacman -S gcc make coreutils freetype2 libxinerama fontconfig --noconfirm 
-    $ sudo pacman -S libx11 libxrender libxft --noconfirm
+    $ sudo pacman -S gcc git make coreutils freetype2 libxinerama fontconfig libx11 \ 
+      libxrender libxft --noconfirm
     ```` 
 
   * **Debian/Ubuntu:**
   
     ```shell
-    $ sudo apt install gcc make coreutils libfreetype-dev libxinerama-dev libxft-dev -y
-    $ sudo apt install libfreetype6-dev libfontconfig1-dev libxrender-dev -y
+    $ sudo apt install gcc git make coreutils libfreetype-dev libxinerama-dev libxft-dev \
+      libfreetype6-dev libfontconfig1-dev libxrender-dev -y
     ````
 
 ### Build and install:
