@@ -16,6 +16,7 @@ st-config - My configuration of st suckless simple terminal
     * `Support for scroll block with Alt+PageUp and Alt+PageDown`
     * `Set font size with -z parameter`
     * `Increase/Decrease/Reset zoom with Ctrl+9/8/0`
+    * `Increase/Decrease zoom with Ctrl+Plus/Minus`
     * `Patch autocomplete applied`
     * `Includes shortcut installation`
 
